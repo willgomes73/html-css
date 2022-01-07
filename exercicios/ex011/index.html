@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias HTML</title>
+</head>
+<body>
+    <H1>Imagem Dinâmiva</H1>
+    <p>Tente abrir essa site em vários dispositicos diferentes ou aumente e diminui o tamanho do seu navergador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos aprender a reproduzir áudio em HTML5.</p>
+    <p> Mundo Bita - Fazendinha:</p>
+    <audio src="midia/y2meta.com - Mundo Bita - Fazendinha [clipe infantil] (128 kbps).mp3" controls autoplay></audio>
+    
+    <p>Live+do+Vergara+001:</p>
+    <!--MP3 WAV OGG-->
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/Live+do+Vergara+001+-+Art+Colletion+AUDIO.mp3" type="audio/mpeg">
+        <p>Infelesmente seu navegador não consegue reproduzir áudio </p>
+        <a href="midia/y2meta.com - Mundo Bita - Fazendinha [clipe infantil] (128 kbps).mp3">Clik aqui para baixar o arquivo</a>
+    </audio>
+</body>
+</html>
